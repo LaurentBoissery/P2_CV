@@ -1,0 +1,129 @@
+/* Mise en page */
+
+@font-face 
+{
+    font-family: 'Hind';
+    src: url('CSS/POLICES/Hind/Hind-Regular.woff') format('otf');
+}
+
+body
+{
+	font-family:Hind; Arial;
+	margin:0; 
+	padding:0;
+}
+
+
+.Flex
+{
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+
+
+#Presentation
+{
+	width:35%;
+	
+	background-color:#64B5F6; /* Bleu clair */
+
+}
+
+#titre
+{
+	width: 65%;
+}
+
+
+.MaPhoto img
+{
+	display:block;
+	margin:auto;
+	margin-top:auto;
+	width:50%;
+	height:50%;
+	padding:0;
+
+
+}
+
+.RoundedImage 
+{
+	overflow:hidden;
+	border-radius:50%;
+	box-shadow:0px 0px 0px 2px black;
+	margin-top: 5px;
+
+}
+.Loisirs
+{
+	padding-top:100%;
+}
+
+.Loisirs img
+{
+	width:20%;
+	padding:1% 1%;
+	padding-left:2%;
+	margin-left:5%;
+	margin-right:5%;
+	opacity:0.8;
+}
+
+.Loisirs-Align
+{
+	padding-top:2%;
+	padding-bottom:10%;
+	display:block;
+	text-align:center;
+
+}
+.RoundedImage-L
+{
+	overflow:hidden;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	-o-border-radius:50%;
+	border-radius:50%;
+	box-shadow:0px 0px 0px 2px #404040;
+}
+
+#header
+{
+	display: flex;
+}
+#titre h1
+{
+	font-size:52px;
+	color:#4a4a4a;
+	
+	padding-left:5%;
+	padding-bottom:0;
+	margin-top:12%;
+	margin-bottom:0;
+}
+
+#titre h2
+{
+	font-size:32px;
+	color:#6b6b6b;
+	
+	padding-left:5%;
+	padding-top:0;
+	margin-top:0;
+	margin-bottom:0%;
+}
+
+
+.namecolor
+{
+	color:#64B5F6; /* Bleu clair */
+	text-transform:uppercase;
+}
+
+
+
+
+
+
