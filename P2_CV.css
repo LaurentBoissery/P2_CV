@@ -3,7 +3,7 @@
 @font-face 
 {
     font-family: 'Hind';
-    src: url('CSS/POLICES/Hind/Hind-Regular.woff') format('otf');
+    src: url('formation/P2/POLICES/Hind/Hind-Regular.woff') format('woff');
 }
 
 body
@@ -14,37 +14,37 @@ body
 }
 
 
+/* Conteneur */
+
 .Flex
 {
 	display:flex;
 	justify-content:center;
 	flex-wrap:wrap;
+
 }
 
+/*Elements*/
 
 #Presentation
 {
-	width:35%;
-	
-	background-color:#64B5F6; /* Bleu clair */
-
+	width: 35%;
+	background-color: #64B5F6; /* Bleu clair */
 }
 
-#titre
+#PRE
 {
-	width: 65%;
+	width: 65%
 }
 
-
-.MaPhoto img
+.MaPhoto
 {
 	display:block;
-	margin:auto;
-	margin-top:auto;
+	padding-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;.
 	width:50%;
 	height:50%;
-	padding:0;
-
 
 }
 
@@ -53,33 +53,65 @@ body
 	overflow:hidden;
 	border-radius:50%;
 	box-shadow:0px 0px 0px 2px black;
-	margin-top: 5px;
+	
 
 }
-.Loisirs
+
+#Presentation h3
+{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #64B5F6; 
+	background-color: #404040; /* Gris */
+
+}
+
+#Presentation p
+{
+	text-align: justify;
+	margin: 0 5px;
+}
+
+.contact p, .apropos p
+{
+	padding-top: 10%;
+	font-size: 16px;
+	word-wrap: break-word;
+}
+
+.apropos
+{
+	position: relative;
+	margin-bottom: 10%;
+}
+
+
+.loisirs
 {
 	padding-top:100%;
 }
 
-.Loisirs img
+.loisirs img
 {
-	width:20%;
+	width:12%;
 	padding:1% 1%;
 	padding-left:2%;
 	margin-left:5%;
 	margin-right:5%;
 	opacity:0.8;
+
 }
 
 .Loisirs-Align
 {
-	padding-top:2%;
-	padding-bottom:10%;
-	display:block;
-	text-align:center;
-
+	padding-top: 2%;
+	padding-bottom: 10%;
+	display: block;
+	text-align: center;
 }
-.RoundedImage-L
+
+.fa fa-gamepad fa-2x .fa fa-star fa-2x .fa fa-eye fa-2x
 {
 	overflow:hidden;
 	-moz-border-radius:50%;
@@ -89,38 +121,136 @@ body
 	box-shadow:0px 0px 0px 2px #404040;
 }
 
-#header
+a
 {
-	display: flex;
-}
-#titre h1
-{
-	font-size:52px;
-	color:#4a4a4a;
-	
-	padding-left:5%;
-	padding-bottom:0;
-	margin-top:12%;
-	margin-bottom:0;
+	text-decoration: none;
+	color: black;
 }
 
-#titre h2
+.Deco hr
 {
-	font-size:32px;
-	color:#6b6b6b;
-	
-	padding-left:5%;
-	padding-top:0;
-	margin-top:0;
-	margin-bottom:0%;
+	color:#64B5F6; 
+	margin-top:-1%;
+	margin-bottom:11%;
+	margin-left:5%;
+	margin-right:85%;
 }
 
+
+#PRE h1
+{
+	font-size: 52px;
+	color: #4a4a4a;
+	padding-left: 5%;
+	padding-bottom: 0;
+	margin-top: 12%;
+	margin-bottom: 0;
+}
+
+#PRE h2
+{
+	font-size: 32px;
+	color: #6b6b6b;
+	padding-left: 5%;
+	padding-top: 0;
+	margin-top: 0;
+	margin-bottom: 0%;
+}
 
 .namecolor
 {
-	color:#64B5F6; /* Bleu clair */
+	color: #64B5F6
+}
+
+.IcoColor
+{
+	color: #64B5F6;
+}
+
+#Formation h3, #Parcours h3, #Recommandations h3
+{
+	padding-left: 5%;
+	margin-bottom: 1%;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+
+
+
+#Formation hr, #Parcours hr, #Recommandations hr
+{
+	color:#f8c906; 
+	margin-left:5%;
+	margin-right:5%;
+}
+
+
+#Formation h4, #Parcours h4
+{
+	font-size:20px;
 	text-transform:uppercase;
 }
+
+#Formation h5, #Parcours h5
+{
+	font-size:16px;
+}
+
+.Circle-1
+{
+	color:#64B5F6; 
+	font-size:14px;
+	padding-top:20px;
+	padding-left:5%;
+	float:left;
+}
+
+.Circle-2
+{
+	color:#64B5F6; 
+	font-size:12px;
+	padding-top:20px;
+	padding-left:5%;
+	float:left;
+}
+
+.left /* Dates */
+{
+	width:170px;
+	margin-left:20px;
+	float:left;
+	height:40px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:60px;
+
+}
+
+.right /* Details */
+{
+	padding:1px;
+	margin-top:2px;
+	margin-left:300px;
+
+}
+
+
+.leftb
+{
+	margin-top:0;
+	margin-left:5%;
+	float:left;
+
+}
+
+.rightb
+{
+	margin-right:30%;
+	float:right;
+
+}
+
+
 
 
 
