@@ -16,28 +16,28 @@ body
 
 /* Conteneur */
 
-.Flex
+.conteneur
 {
-	display:flex;
-	width: 30%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+/* Element conteneur */
+
+#Presentation
+{
+	width: 35%;
 	background-color: #64B5F6; /* Bleu clair */
-	flex-wrap: nowrap;
-	
-
 }
 
-/*Elements*/
-
-
-#PRE
-{
-	width: 35%
-}
-
-#droite
+#Corps
 {
 	width: 65%;
+	
 }
+
 
 .MaPhoto
 {
@@ -45,7 +45,7 @@ body
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-top:25%;
-	margin-bottom: 25%
+	margin-bottom: 25%;
 
 
 }
@@ -55,20 +55,16 @@ body
 	overflow:hidden;
 	border-radius:50%;
 	box-shadow:0px 0px 0px 2px black;
-
-	
-
 }
-
-#Presentation h3
-{
+	#Presentation h3
+	{
 	font-size: 30px;
 	text-transform: uppercase;
 	text-align: center;
 	color: #64B5F6; 
 	background-color: #404040; /* Gris */
+	}
 
-}
 
 #Presentation p
 {
@@ -80,52 +76,34 @@ body
 {
 	padding: 0 10%;
 	font-size: 16px;
-	word-wrap: break-word;
+	
 }
 
 .apropos
 {
 	position: relative;
 	margin-bottom: 5%;
-}
-
-
-
 
 }
 
-.RoundedImageL {
-	display: flex;
+.hobby1, .hobby2, .hobby3
+{
+	width:12%;
+	padding:1% 1%;
+	padding-left:2%;
+	margin-left:5%;
+	margin-right:5%;
+	opacity:0.8;
 	overflow:hidden;
 	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
 	-o-border-radius:50%;
 	border-radius:50%;
-	box-shadow:0px 0px 0px 2px black;
-	padding-top:2%;
-	padding-bottom:5%;
-	display:flex;
-	text-align:center;
-	justify-content: center;
+	box-shadow:0px 0px 0px 2px #404040;
+	justify-content: space-between;
 }
 
-a
-{
-	text-decoration: none;
-	color: black;
-}
-
-.Deco hr
-{
-	color:#64B5F6; 
-	margin-top:-1%;
-	margin-bottom:11%;
-	margin-left:5%;
-	margin-right:85%;
-}
-
-
-#PRE h1
+.PRE h1
 {
 	font-size: 52px;
 	color: #4a4a4a;
@@ -135,7 +113,7 @@ a
 	margin-bottom: 0;
 }
 
-#PRE h2
+.PRE h2
 {
 	font-size: 32px;
 	color: #6b6b6b;
@@ -144,7 +122,26 @@ a
 	margin-top: 0;
 	margin-bottom: 0%;
 }
+.hr
+{
+	color: #64B5F6; 
+	width: 20%;
+}
 
+.DecoP hr
+{
+	color: #64B5F6;
+	border-bottom: 2px solid black;
+}
+
+
+
+
+#Corps
+{
+	width: 65%;
+	flex-direction: column;
+}
 .namecolor
 {
 	color: #64B5F6
@@ -155,7 +152,7 @@ a
 	color: #64B5F6;
 }
 
-#Formation h3, #exppro h3, #Recommandations h3
+#Formation h3, #Parcours h3, #Recommandations h3
 {
 	padding-left: 5%;
 	margin-bottom: 1%;
@@ -177,6 +174,7 @@ a
 {
 	font-size:20px;
 	text-transform:uppercase;
+	display: flex;
 }
 
 #Formation h5, #Parcours h5
@@ -184,7 +182,7 @@ a
 	font-size:16px;
 }
 
-.Cercle1
+#Cercle1
 {
 	color:#64B5F6; 
 	font-size:14px;
@@ -193,24 +191,21 @@ a
 	float:left;
 }
 
-.Cercle2
+#Cercle2
 {
 	color:#64B5F6; 
-	font-size:12px;
+	font-size:10px;
 	padding-top:20px;
 	padding-left:5%;
 	float:left;
 }
 
-.left /* Dates */
+.left/* Dates */
 {
 	width:170px;
 	margin-left:20px;
 	float:left;
-	height:40px;
-	padding-left:20px;
-	padding-right:20px;
-	padding-bottom:60px;
+	float:left;
 
 }
 
@@ -219,24 +214,40 @@ a
 	padding:1px;
 	margin-top:2px;
 	margin-left:300px;
-
-}
-
-
-.leftb
-{
-	margin-top:0;
-	margin-left:5%;
-	float:left;
-
-}
-
-.rightb
-{
 	margin-right:30%;
 	float:right;
 
 }
+
+
+}
+
+
+
+	
+
+/*Elements*/
+
+
+
+}
+
+.RoundedImageL 
+{
+	overflow:hidden;
+	border-radius:50%;
+	box-shadow:0px 0px 0px 2px black;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
 
 
 
