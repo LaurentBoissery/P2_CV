@@ -8,7 +8,7 @@
 
 body
 {
-	font-family:Hind; Arial;
+	font-family:Hind;
 	margin:0; 
 	padding:0;
 }
@@ -19,32 +19,34 @@ body
 .Flex
 {
 	display:flex;
-	justify-content:center;
-	flex-wrap:wrap;
+	width: 30%;
+	background-color: #64B5F6; /* Bleu clair */
+	flex-wrap: nowrap;
+	
 
 }
 
 /*Elements*/
 
-#Presentation
-{
-	width: 35%;
-	background-color: #64B5F6; /* Bleu clair */
-}
 
 #PRE
 {
-	width: 65%
+	width: 35%
+}
+
+#droite
+{
+	width: 65%;
 }
 
 .MaPhoto
 {
-	display:block;
-	padding-top: 10%;
-	margin-left: 10%;
-	margin-right: 10%;.
-	width:50%;
-	height:50%;
+	display: block;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top:25%;
+	margin-bottom: 25%
+
 
 }
 
@@ -53,6 +55,7 @@ body
 	overflow:hidden;
 	border-radius:50%;
 	box-shadow:0px 0px 0px 2px black;
+
 	
 
 }
@@ -75,7 +78,7 @@ body
 
 .contact p, .apropos p
 {
-	padding-top: 10%;
+	padding: 0 10%;
 	font-size: 16px;
 	word-wrap: break-word;
 }
@@ -83,42 +86,27 @@ body
 .apropos
 {
 	position: relative;
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 
-.loisirs
-{
-	padding-top:100%;
-}
 
-.loisirs img
-{
-	width:12%;
-	padding:1% 1%;
-	padding-left:2%;
-	margin-left:5%;
-	margin-right:5%;
-	opacity:0.8;
 
 }
 
-.Loisirs-Align
-{
-	padding-top: 2%;
-	padding-bottom: 10%;
-	display: block;
-	text-align: center;
-}
-
-.fa fa-gamepad fa-2x .fa fa-star fa-2x .fa fa-eye fa-2x
-{
+.RoundedImageL {
+	display: flex;
 	overflow:hidden;
 	-moz-border-radius:50%;
 	-webkit-border-radius:50%;
 	-o-border-radius:50%;
 	border-radius:50%;
-	box-shadow:0px 0px 0px 2px #404040;
+	box-shadow:0px 0px 0px 2px black;
+	padding-top:2%;
+	padding-bottom:5%;
+	display:flex;
+	text-align:center;
+	justify-content: center;
 }
 
 a
@@ -167,7 +155,7 @@ a
 	color: #64B5F6;
 }
 
-#Formation h3, #Parcours h3, #Recommandations h3
+#Formation h3, #exppro h3, #Recommandations h3
 {
 	padding-left: 5%;
 	margin-bottom: 1%;
@@ -196,7 +184,7 @@ a
 	font-size:16px;
 }
 
-.Circle-1
+.Cercle1
 {
 	color:#64B5F6; 
 	font-size:14px;
@@ -205,7 +193,7 @@ a
 	float:left;
 }
 
-.Circle-2
+.Cercle2
 {
 	color:#64B5F6; 
 	font-size:12px;
