@@ -2,8 +2,8 @@
 
 @font-face 
 {
-    font-family: 'Hind';
-    src: url('formation/P2/POLICES/Hind/Hind-Regular.otf') format('otf');
+    font-family: 'jetbrainsmono-regular-webfont';
+    src: url('formation/P2/POLICES/jetbrainsmono-regular-webfont.woff') format('woff');
 }
 
 body{
@@ -15,7 +15,7 @@ main{
 	display: flex;
 }
 
-/* Conteneur */
+
 
 .conteneur{
 	width: 33%;
@@ -27,14 +27,15 @@ main{
 .MaPhoto{
 	text-align: center;
 	margin-top: 20px;
+
 	
 }
 
 .photo1{
-	width: 40%;
+	width: 60%;
 	text-align: center;
-	border-radius: 50%;
-	box-shadow: 100% 60% 50 black;
+	border-radius: 200px;
+	box-shadow: 10px 20px 100px 30px black inset;
 }
 
 h2{
@@ -49,8 +50,10 @@ h2{
 
 .contact p{
 	font-size: 1.2em;
-	margin-bottom: -3px;
-	padding-left: 10px;
+	margin-left: 45px;
+
+
+
 }
 
 .apropos p{
@@ -58,32 +61,41 @@ h2{
     width: 80%;
     margin: auto;
     text-align:justify;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
 }
 
-.loisirs{
-    width: auto;
-    margin: auto;
+.loisirs {
+  
+   flex-direction: column;
+  
 
 }
 
 .loisirsphoto{
-	overflow: hidden;
+	display: flex;
+	width: auto;
 	border-radius: 50%;
-	box-shadow: 0px 0px 0px 2px black;
+	box-shadow: 0px 0px 0px 1px black;
+	margin-bottom: 20px;
+	margin-left: 70px;
+	margin-right: 20px;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: nowrap;
+
 }
 
 .Parcours{
     width: 80%;
     margin-left: 90px;
-    margin-right: auto;
+    
     
 }
 .titre h1{
 
 font-size: 4.8em;
 margin-top: 60px;
-font-family: 'restaurant_menu_hollowregular';
+font-family: '';
 
 }
 .titre strong{
@@ -116,12 +128,9 @@ h4{
 }
 
 .lign{
-    width: 80%;
+    width: 90%;
     height: 1px;
-    background-color: #0EAD39;
-    margin: auto;
-    margin-top: -27px;
-    margin-left: -4px;   
+    background-color: #0EAD39;   
 }
 .point{
     display: flex;
@@ -140,6 +149,7 @@ h4{
 .formation1{
     margin-left: 30%;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 .Recommandations{
     display: flex;
@@ -151,25 +161,9 @@ h4{
 
 }
 
-.points i{
-    color: #0EAD39;
-    margin-right: 15px;
-    height: 13px;
-    margin-top: 17px;
-}
 
-.points{
-    display: flex;
-    
-}
-.block3{
-    display: flex;
-}
-.formation2{
-   margin-left:30% ;
-}
 
-@media screen and (max-width: 768px){
+@media only and screen (max-width: 480px){
     main{
        flex-direction: column;
        
@@ -177,10 +171,14 @@ h4{
         
     .conteneur{
         width: 100%;
+
     }
-    .MaPhoto{
+    .photo1{
     	text-align: center;
-        ;
+    	max-width: 40%;
+    	max-height:40%;
+
+        
     }
     .Parcours{
     	justify-content: center;
@@ -206,7 +204,9 @@ h4{
     
     .immersio{
         text-align: center;
-        margin: auto;
+        
+
+
     }
     .titre h1{
         font-size: 3.2em;
@@ -241,36 +241,23 @@ h4{
        
     }
     
-    .lign{
-        margin: auto;
-    }
+   
     .formation1{
-        margin-top: -13px;
-        margin-left: -24px;
+        margin-top: 13px;
+  		justify-content: center;
         text-align: center;
         
     }
-    .formation2{
-        
-         margin-top: -13px;
-        margin-left: -24px;
-        text-align: center;;
-    }
-    .block3{
-        flex-direction: column;
-        text-align: center;
-    }
-    .points{
-        justify-content: center;
-    }
+  
+   
+
     .loisirs{
         position: relative;
-        top: 1921px;
+       flex-direction: column;
         background-color: #0EAD39;
         }
-    
-}
 
+    
     
     
     
