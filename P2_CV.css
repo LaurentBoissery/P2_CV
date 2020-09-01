@@ -34,8 +34,7 @@ main{
 .photo1{
 	width: 60%;
 	text-align: center;
-	border-radius: 200px;
-	box-shadow: 10px 20px 100px 30px black inset;
+	border-radius: 50%;
 }
 
 h2{
@@ -51,7 +50,8 @@ h2{
 .contact p{
 	font-size: 1.2em;
 	margin-left: 45px;
-
+	text-align: justify;
+	overflow: auto;
 
 
 }
@@ -64,30 +64,21 @@ h2{
     margin-bottom: 180px;
 }
 
-.loisirs {
-  
-   flex-direction: column;
-  
 
-}
-
-.loisirsphoto{
-	display: flex;
-	width: auto;
+.loisirsphoto i{
+	
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 1px black;
+	margin-left: 60px;
 	margin-bottom: 20px;
-	margin-left: 70px;
-	margin-right: 20px;
-	justify-content: space-between;
-	flex-direction: column;
-	flex-wrap: nowrap;
 
 }
 
+
+
 .Parcours{
-    width: 80%;
-    margin-left: 90px;
+    width: 77%;
+    margin-left: 60px;
     
     
 }
@@ -95,12 +86,13 @@ h2{
 
 font-size: 4.8em;
 margin-top: 60px;
-font-family: '';
+
 
 }
 .titre strong{
     color: #0EAD39;
     margin-right: 20px;
+
 }
 .titre span{
     border-bottom:1px solid #0EAD39;
@@ -108,13 +100,14 @@ font-family: '';
 }
 .titre p{
     font-size: 1.8em;
-    margin-top: -75px;
+    margin-top: -70px;
     margin-bottom: 150px;
     
 }
 .formation{
     display: flex;
     font-size: 30px;
+    text-transform: uppercase;
     
 }
 .formation i{
@@ -124,12 +117,12 @@ font-family: '';
 }
 
 h4{
-    margin-top: 8px;  
+    margin-top: 5px;  
 }
 
 .lign{
     width: 90%;
-    height: 1px;
+    height: 1.3px;
     background-color: #0EAD39;   
 }
 .point{
@@ -150,20 +143,22 @@ h4{
     margin-left: 30%;
     margin-top: 20px;
     margin-bottom: 30px;
+
 }
 .Recommandations{
     display: flex;
-    margin: auto;
+    
 }
 
 .immersio{
-	margin-right: 150px;
+	
+	padding-right: 180px;
 
 }
 
 
 
-@media only and screen (max-width: 480px){
+@media screen and (max-width: 480px){
     main{
        flex-direction: column;
        
@@ -249,13 +244,11 @@ h4{
         
     }
   
-   
+   .loisirsphoto{
+   	display: flex;
+   	justify-content: center;
 
-    .loisirs{
-        position: relative;
-       flex-direction: column;
-        background-color: #0EAD39;
-        }
+   }
 
     
     
