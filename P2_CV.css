@@ -2,48 +2,50 @@
 
 @font-face 
 {
-    font-family: 'jetbrainsmono-regular-webfont';
-    src: url('formation/P2/POLICES/jetbrainsmono-regular-webfont.woff') format('woff');
+    font-family: Arial, Verdana, sans-serif;
 }
 
 body{
 	margin:0; 
 	padding:0;
+	font-family: Arial, Verdana, sans-serif;
 }
 
 main{
 	display: flex;
+	font-family: Arial, Verdana, sans-serif;
 }
 
 
 
 .conteneur{
-	width: 33%;
-	background-color: #0EAD39;
+	width: 35%;
+	background-color: rgb(254,202,7);
 	position: relative;
 }
 
 
 .MaPhoto{
 	text-align: center;
-	margin-top: 20px;
-
-	
+	margin-top: 20px;	
 }
+
 
 .photo1{
 	width: 60%;
 	text-align: center;
 	border-radius: 50%;
+	border: 4px solid #C2A21A ;
 }
 
 h2{
 	background-color: black;
 	text-align: center;
-	padding: 20px 0px 20px 0px;
-	font-size: 1.9em;
-	color: #0EAD39;
+	padding: 8px 0px 8px 0px;
+	font-size: 2em;
+	color: rgb(254,202,7);
 	text-transform: uppercase;
+	font-family: Arial, Verdana, sans-serif;
 }
 
 
@@ -52,8 +54,6 @@ h2{
 	margin-left: 45px;
 	text-align: justify;
 	overflow: auto;
-
-
 }
 
 .apropos p{
@@ -69,11 +69,10 @@ h2{
 	
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 1px black;
-	margin-left: 60px;
+	margin-left: 70px;
 	margin-bottom: 20px;
 
 }
-
 
 
 .Parcours{
@@ -90,12 +89,12 @@ margin-top: 60px;
 
 }
 .titre strong{
-    color: #0EAD39;
+    color: rgb(254,202,7);
     margin-right: 20px;
 
 }
 .titre span{
-    border-bottom:1px solid #0EAD39;
+    border-bottom:1px solid rgb(254,202,7);
     
 }
 .titre p{
@@ -113,17 +112,19 @@ margin-top: 60px;
 .formation i{
     font-size: 40px;
     margin-right: 20px;
-    color: #0EAD39;
+    color: rgb(254,202,7);
 }
 
 h4{
-    margin-top: 5px;  
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    font-family: Arial, Verdana, sans-serif; 
 }
 
 .lign{
     width: 90%;
-    height: 1.3px;
-    background-color: #0EAD39;   
+    height: 2px;
+    background-color: rgb(254,202,7);   
 }
 .point{
     display: flex;
@@ -133,7 +134,7 @@ h4{
     margin-right: 15px;
     height: 13px;
     margin-top: 17px;
-    color: #0EAD39;
+    color: rgb(254,202,7);
 }
 .block1{
     display: flex;
@@ -158,97 +159,76 @@ h4{
 
 
 
-@media screen and (max-width: 480px){
-    main{
-       flex-direction: column;
+@media all and (max-width: 1024px){
+    
        
+    @main{
+    	text-align: center;
     }
         
     .conteneur{
-        width: 100%;
+        width: 33%;
+        flex-wrap: wrap;
 
     }
+
+
     .photo1{
-    	text-align: center;
+    	
     	max-width: 40%;
     	max-height:40%;
 
         
     }
-    .Parcours{
-    	justify-content: center;
-        
-        border-top-style: none;
+
+    .titre{
+    	font-size: 0.8em;
     }
-    .contact{
-        width: auto;
-        justify-content: center;
-    }
-    .contact h1{
-      width: 100%;
-      
-    }
+
+  
     .contact p{
-        text-align:center;
+    	word-wrap: break-word;
+    	margin-left: 20px;
+            
     }
     
-    .Recommandations{
-        flex-direction: column;
-        text-align: center;
-    }
     
-    .immersio{
-        text-align: center;
-        
-
-
-    }
+  
     .titre h1{
         font-size: 3.2em;
-        margin-bottom: 77px;
-        text-align: center;
-        margin-top: 43px;
+        margin-bottom: 60px;
+        margin-top: 30px;
     }
-    .titre p{
-        text-align: center;
-    }
-    .titre{
-        justify-content: center;
 
-    }
     
     .block1{
-        margin-bottom: 34px;
-        margin-top: -22px;
+    	max-width: 50%;
+        margin-bottom: 4px;
+        margin-top: 4px;
         flex-direction: column;
-    }
-    .point{
         justify-content: center;
+       
     }
-    
-    .formation{
-        justify-content: center;
-        margin-bottom: -34px;
-        margin-top: -20px;
-    }
+
+  h4{
+  	margin-bottom: 40px;
+  }
+
+   
     .apropos p{
         margin-bottom: 25px;
        
     }
     
-   
-    .formation1{
-        margin-top: 13px;
-  		justify-content: center;
-        text-align: center;
-        
-    }
+  
   
    .loisirsphoto{
-   	display: flex;
-   	justify-content: center;
+   		flex-wrap: nowrap;
+   		font-size: : 0.8em;
+   		margin-left: 25px;
 
    }
+  }
 
     
     
