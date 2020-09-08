@@ -158,7 +158,7 @@ h4{
 
 
     
-    @media screen and (max-width: 1024px){
+    @media screen and (max-width: 375px){
 
     main{
        flex-direction: column;  
@@ -170,20 +170,9 @@ h4{
     .photo1{
         width: 40%;
     }
-  
-    .contact{
-        width: 100%;
-        
-    }
-
-    .Recommandations{
-    	width: 100%;
-        flex-direction: column;
-        text-align: center;
-    }
     
     .immersio{
-    	width: 100%;
+    	
         text-align: center;
        
     }
@@ -194,8 +183,10 @@ h4{
         margin-top: 30px;
     }
     .titre p{
-        justify-content: : center;
+        margin-bottom: 20px;
+        text-align: center;
     }
+
     .titre{
         justify-content: center;
     }
@@ -203,10 +194,13 @@ h4{
     .block1{
         margin-bottom: 10px;
         margin-top: 10px;
-        flex-wrap: wrap;
-        width: 80%;   
+        flex-wrap: wrap;     
     }
    
+   .point{
+   	margin-bottom: 5px;
+  	margin-top: 5px;
+   }
  
     .apropos p{
         margin-bottom: 25px; 
@@ -216,21 +210,31 @@ h4{
         margin-top: 5px;
     }
 
-    .Parcours{
+    .immersio {
+    	justify-content: center;
     	width: 100%;
     }
 
 
-
   .formation h4{
-  	font-size: 1em;
+  	font-size: 0.75em;
+  }
+
+  .formation1{
+  	margin-bottom: 5px;
+  	margin-top: 5px;
   }
    
-  
-
     .loisirsphoto{
     	justify-content: center;
     }
+
+.Recommandations{
+	flex-direction: column;
+	width: 100%;
+}
+
+
     
 }
 
