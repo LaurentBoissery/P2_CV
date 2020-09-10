@@ -248,7 +248,7 @@ h4{
 
     
 }
-/* RESPONSIVE MOBILE */
+/* RESPONSIVE MOBILE 320*/
     
   @media screen and (max-width: 320px){  
 
@@ -343,8 +343,196 @@ h4{
 	text-align: center;
 }
 }  
+
+/* RESPONSIVE MOBILE 375*/
     
+  @media screen and (max-width: 375px){  
+
+     main{
+       flex-direction: column;  
+    }
+        
+    .conteneur{
+        width: 190%;
+    }
+
+   
+    .photo1{
+        width: 30%;
+    }
+    
+
+    .immersio{
+        text-align: center;
+    }
+
+    .Parcours{
+    	width: 75%;
+    }
+
+    .titre h1{
+        font-size: 2.5em;
+  		text-align: center;
+
+    }
+
+    .titre p{
+        margin-bottom: 20px;
+        margin-left: 130px;
+        
+    }
+
+    .titre{
+        justify-content: center;
+        width: 198%;
+    }
+    
+    .block1{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        flex-wrap: wrap;     
+    }
+   
+   .point{
+   	margin-bottom: 5px;
+  	margin-top: 5px;
+   }
  
+    .apropos p{
+        margin-bottom: 25px; 
+    }
+    
+    .lign{
+        margin-top: 5px;
+        width: 198%
+    }
+
+    .immersio {
+    	justify-content: center;
+    	width: 150%;
+    }
+
+
+  .formation h4{
+  	font-size: 0.75em;
+  }
+
+  .formation1{
+  	margin-bottom: 5px;
+  	margin-top: 5px;
+  	margin-left: 120px;
+  	flex-wrap: nowrap;
+  }
+   
+    .loisirsphoto{
+    	font-size: 1.5em;
+    	margin-left: 45px;
+    	margin-bottom: 4px;
+    }
+
+    .block1{
+    	width: 198%;
+    }
+
+    .Recommandations{
+	flex-direction: column;
+	text-align: center;
+}
+}  
+    
+ /* RESPONSIVE MOBILE 425*/
+    
+  @media screen and (max-width: 425px){  
+
+     main{
+       flex-direction: column;  
+    }
+        
+    .conteneur{
+        width: 210%;
+    }
+
+   
+    .photo1{
+        width: 30%;
+    }
+    
+
+    .immersio{
+        text-align: center;
+    }
+
+    .Parcours{
+    	width: 75%;
+    }
+
+    .titre h1{
+        font-size: 2.5em;
+  		text-align: center;
+
+    }
+
+    .titre p{
+        margin-bottom: 20px;
+        margin-left: 130px;
+        
+    }
+
+    .titre{
+        justify-content: center;
+        width: 198%;
+    }
+    
+    .block1{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 210%;
+        text-align: center;    
+    }
+   
+   .point{
+   	margin-bottom: 5px;
+  	margin-top: 5px;
+   }
+ 
+    .apropos p{
+        margin-bottom: 25px; 
+    }
+    
+    .lign{
+        margin-top: 5px;
+        width: 210%
+    }
+
+    .immersio {
+    	justify-content: center;
+    	width: 150%;
+    }
+
+
+  .formation h4{
+  	font-size: 0.75em;
+  }
+
+  .formation1{
+  	margin-bottom: 5px;
+  	margin-top: 5px;
+  	margin-left: 120px;
+  	flex-wrap: nowrap;
+  }
+   
+    .loisirsphoto{
+    	font-size: 1.5em;
+    	justify-content: center;
+    	margin-bottom: 4px;
+    }
+
+    .Recommandations{
+	flex-direction: column;
+	text-align: center;
+	width: 135%;
+}
+}  
 
 
 
