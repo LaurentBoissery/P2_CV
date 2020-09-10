@@ -169,6 +169,7 @@ h4{
         width: 120%;
     }
 
+
    
     .photo1{
         width: 30%;
@@ -181,7 +182,7 @@ h4{
     }
 
     .titre h1{
-        font-size: 2.5em;
+        font-size: 3em;
         margin-bottom: 60px;
         text-align: center;
         margin-top: 30px;
@@ -196,6 +197,7 @@ h4{
 
     .titre{
         justify-content: center;
+        position: relative;
     }
     
     .block1{
@@ -225,7 +227,7 @@ h4{
 
 
   .formation h4{
-  	font-size: 0.75em;
+  	font-size: 1.25em;
   }
 
   .formation1{
