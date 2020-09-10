@@ -257,7 +257,7 @@ h4{
     }
         
     .conteneur{
-        width: 150%;
+        width: 190%;
     }
 
    
@@ -268,25 +268,27 @@ h4{
 
     .immersio{
         text-align: center;
-       
+    }
+
+    .Parcours{
+    	width: 75%;
     }
 
     .titre h1{
         font-size: 2.5em;
-        margin-bottom: 60px;
-        text-align: center;
-        margin-top: 30px;
-        margin-left: 80px;
+  		text-align: center;
 
     }
 
     .titre p{
         margin-bottom: 20px;
-        margin-left: 80px;
+        margin-left: 130px;
+        
     }
 
     .titre{
         justify-content: center;
+        width: 198%;
     }
     
     .block1{
@@ -306,7 +308,7 @@ h4{
     
     .lign{
         margin-top: 5px;
-        width: 110%
+        width: 198%
     }
 
     .immersio {
@@ -322,22 +324,24 @@ h4{
   .formation1{
   	margin-bottom: 5px;
   	margin-top: 5px;
-  	width: 140%;
+  	margin-left: 120px;
+  	flex-wrap: nowrap;
   }
    
     .loisirsphoto{
     	font-size: 1.5em;
-    	margin-left: 15px;
+    	margin-left: 45px;
     	margin-bottom: 4px;
     }
 
-	.Recommandations{
+    .block1{
+    	width: 198%;
+    }
+
+    .Recommandations{
 	flex-direction: column;
-	width: 100%;
+	text-align: center;
 }
-
-
-    
 }  
     
  
