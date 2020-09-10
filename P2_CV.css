@@ -30,7 +30,7 @@ main{
 	width: 60%;
 	text-align: center;
 	border-radius: 50%;
-	border: 4px solid #C2A21A ;
+	box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.2);
 }
 
 h2{
@@ -62,8 +62,10 @@ h2{
 	
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 1px black;
-	margin-left: 70px;
+	margin-top: 20px;
+	margin-left: 80px;
 	margin-bottom: 20px;
+	font-size: 2em;
 
 }
 
@@ -155,23 +157,23 @@ h4{
 
 /* RESPONSIVE TABLETTE */
 
-
-
     
-    @media screen and (max-width: 812px){
+    @media screen and (max-width: 1024px){
 
     main{
        flex-direction: column;  
     }
         
     .conteneur{
-        width: 100%;
+        width: 110%;
     }
 
+   
     .photo1{
         width: 30%;
     }
     
+
     .immersio{
         text-align: center;
        
@@ -182,11 +184,13 @@ h4{
         margin-bottom: 60px;
         text-align: center;
         margin-top: 30px;
+        margin-left: 110px;
+
     }
 
     .titre p{
         margin-bottom: 20px;
-        text-align: center;
+        margin-left: 190px;
     }
 
     .titre{
@@ -210,6 +214,7 @@ h4{
     
     .lign{
         margin-top: 5px;
+        width: 120%
     }
 
     .immersio {
@@ -225,10 +230,14 @@ h4{
   .formation1{
   	margin-bottom: 5px;
   	margin-top: 5px;
+  	width: 140%;
   }
    
     .loisirsphoto{
-    	font-size: 0.8em;
+    	font-size: 1.5em;
+    	margin-left: 170px;
+    	margin-top: 4px;
+    	margin-bottom: 4px;
     }
 
 .Recommandations{
@@ -239,20 +248,99 @@ h4{
 
     
 }
+/* RESPONSIVE MOBILE */
+    
+  @media screen and (max-width: 320px){  
 
-    
-    
+     main{
+       flex-direction: column;  
+    }
+        
+    .conteneur{
+        width: 150%;
+    }
 
    
+    .photo1{
+        width: 30%;
+    }
     
+
+    .immersio{
+        text-align: center;
+       
+    }
+
+    .titre h1{
+        font-size: 2.5em;
+        margin-bottom: 60px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 80px;
+
+    }
+
+    .titre p{
+        margin-bottom: 20px;
+        margin-left: 80px;
+    }
+
+    .titre{
+        justify-content: center;
+    }
+    
+    .block1{
+        margin-bottom: 10px;
+        margin-top: 10px;
+        flex-wrap: wrap;     
+    }
    
+   .point{
+   	margin-bottom: 5px;
+  	margin-top: 5px;
+   }
+ 
+    .apropos p{
+        margin-bottom: 25px; 
+    }
+    
+    .lign{
+        margin-top: 5px;
+        width: 110%
+    }
+
+    .immersio {
+    	justify-content: center;
+    	width: 150%;
+    }
 
 
+  .formation h4{
+  	font-size: 0.75em;
+  }
+
+  .formation1{
+  	margin-bottom: 5px;
+  	margin-top: 5px;
+  	width: 140%;
+  }
+   
+    .loisirsphoto{
+    	font-size: 1.5em;
+    	margin-left: 15px;
+    	margin-bottom: 4px;
+    }
+
+	.Recommandations{
+	flex-direction: column;
+	width: 100%;
+}
 
 
-
-
-
+    
+}  
+    
+ 
 
 
 
